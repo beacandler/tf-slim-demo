@@ -5,8 +5,8 @@ Fine-tunes an InceptionV3 model on the Flowers training set.
 
 ### Contents
 1. [Technology](#Technology)
-2. [Structure](#structure)
-3. [Running with docker](#Running with docker)
+2. [Structure](#Structure)
+3. [Running](#Running)
 4. [Demo](#Demo)
 
 ## Technology
@@ -16,7 +16,7 @@ Fine-tunes an InceptionV3 model on the Flowers training set.
 4. tensorboard
 5. TF-distribute 
 
-## structure
+## Structure
 ```
 .
 ├── docker-compose.yml
@@ -61,7 +61,7 @@ Fine-tunes an InceptionV3 model on the Flowers training set.
 │   └── utils.py
 └──── screenshots
 ```
-## Running with docker
+## Running
 ### Configure environment
 1. install [Docker-ce](https://arxiv.org/abs/1610.02357)
 2. install [nvidia-docker](https://github.com/NVIDIA/nvidia-docker)(not nvidia-docker2)
