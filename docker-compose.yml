@@ -1,0 +1,11 @@
+version: '2'
+services:
+  tf-slim-demo:
+    build: .
+    image: tensorflow/slim-demo:latest-gpu
+    ports:
+    - 6006:6006
+    volumes:
+    - .:/tf-slim-demo
+    - /tmp/.X11-unix:/tmp/.X11-unix
+    - /etc/localtime:/etc/localtime:ro
